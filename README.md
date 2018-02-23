@@ -1,11 +1,10 @@
 # Material Responsive
 
-Material responsive bir site tasarımı sade kullanışlı bir site tasarımı.
+Material responsive bir site tasarımı sade kullanışlı multi color bir index tasarımı.
 
 # Yapımcı
-
-Dream41
-
+Dream41 
+İletişim:
 DreamArt: http://disco.gg/dremart
 
 # Not
