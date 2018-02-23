@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i');
+
+body{
+    background: #f5f5f5 url(images/bg.png);
+    margin:0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ustmenu {
+    background: #1976D2;
+    padding: 25px;
+    top: 0px;
+    margin: 0px;
+    height: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.27);
+    margin-bottom: 20px;
+}
+
+.ustmenu2{
+    float:right;
+}
+
+.ustmenu2 li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.ustmenu2 li a{
+    color:#fff;
+    font-family: Roboto;
+    padding:26px;
+    transition: 0.4s;
+}
+
+.ustmenu2 li a:hover{
+    background: rgba(0,0,0,0.27);
+}
+
+.logo{
+    font-family: Roboto;
+    float: left;
+    font-size: 24px;
+    margin-top: -8px;
+    margin-left: 60px;
+}
+
+.logo a{
+    color:#fff;
+}
+
+.container{
+    margin:auto;
+    max-width: 100%;
+    width:85%;
+}
+
+.footer {
+    background: #1976D2;
+    padding: 25px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top: 20px;
+    box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.27);
+    height: 25px;
+}
+
+.footer a{
+    color:#fff;
+    float:left;
+}
+
+.footersag{
+    float:right;
+    font-size:15px;
+}
+
+.footersag a{
+    float:right;
+}
+
+.card{
+    background: #fff;
+    padding: 10px;
+    color: #444;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 30%;
+    border: 1px solid #ddd;
+    margin-left: 2px;
+    font-family: Roboto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+h2{
+    font-family: Roboto;
+    font-size: 45px;
+    margin-top: 5px;
+}
+
+h3{
+    font-family: Roboto;
+    margin-top: -25px;
+}
+
+h4{
+    font-family: Roboto;
+    font-size: 25px;
+    color: #444;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.button{
+    background: #1976D2;
+    padding: 6px;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.button:hover{
+    background: #444;
+}
+
+.button a{
+    color:#fff;
+}
+
+
+.duyur-bana{
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.mobil-menu{
+    display:none;
+}
+
+.mobil-menu2{
+    display:none;
+}
+
+.mobil-menu3{
+    display:none;
+}
+
+.multi-color{
+    background: #fff;
+    font-family: Roboto;
+    padding: 8px 11px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+.multi-color a{
+    color:#444;
+}
+
+::selection{
+    background-color:#2196F3;
+    color:#f5f5f5;
+}
+
+@media only screen and (max-width:900px) {
+    .container{
+        max-width: 100%;
+        width:100%;
+        margin:auto;
+    }
+    .card{
+        margin: auto;
+        width:auto;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    .ustmenu2{
+        display:none;
+    }
+    h1{
+        text-align: center;
+    }
+    .mobil-menu{
+    left: -118px;
+    position: fixed;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    font-family: Roboto;
+    padding: 5px;
+    transition: 0.4s;
+    display: block;
+}
+
+.mobil-menu-icon {
+    background: #fff;
+    border-left: 1px solid #ddd;
+    font-family: Roboto;
+    padding: 5px;
+    color: #444;
+}
+
+.mobil-menu:hover{
+    left:0px;
+}
+
+.mobil-menu a{
+    color:#444;
+}
+
+.mobil-menu2{
+    left: -86px;
+    top: 119px;
+    position: fixed;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-family: Roboto;
+    padding: 5px;
+    transition: 0.4s;
+    display: block;
+
+}
+
+.mobil-menu2-icon {
+    background: #fff;
+    border-left: 1px solid #ddd;
+    font-family: Roboto;
+    padding: 5px;
+    color: #444;
+}
+
+.mobil-menu2:hover{
+    left:0px;
+}
+
+.mobil-menu3{
+    left: -147px;
+    top: 150px;
+    position: fixed;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-family: Roboto;
+    padding: 5px;
+    transition: 0.4s;
+    display: block;
+
+}
+
+.mobil-menu3-icon {
+    background: #fff;
+    border-left: 1px solid #ddd;
+    font-family: Roboto;
+    padding: 5px;
+    color: #444;
+}
+
+.mobil-menu3:hover{
+    left:0px;
+}
+
+.mobil-menu3 a{
+    color:#444;
+}
+}
